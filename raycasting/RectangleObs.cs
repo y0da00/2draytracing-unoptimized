@@ -11,7 +11,7 @@ public class RectangleObs : IObstacle
     public int y;
     public int width;
     public int height;
-    public const string type = "rect";
+    
     public RectangleObs(int x, int y, int width, int height)
     {
         this.x = x;
